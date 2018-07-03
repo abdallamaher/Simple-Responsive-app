@@ -1,0 +1,140 @@
+body{
+}
+/* Start navbar */
+.navbar-nav > li > a{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar-inverse .navbar-brand{
+	font-size: 30px;
+	line-height: 30px
+}
+
+.navbar-inverse .navbar-brand span
+{
+	color: #E41B17
+}
+
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover, 
+.navbar-inverse .navbar-nav > .open > a:focus{
+	background-color: #080808;
+}
+
+.navbar-inverse .navbar-nav > .active > a, 
+.navbar-inverse .navbar-nav > .active > a:hover, 
+.navbar-inverse .navbar-nav > .active > a:focus{
+	background-color: #E41B17;
+}
+
+.dropdown-menu
+{
+	background-color: #333;
+	border-top: 3px solid #E41B17;
+	min-width: 200px
+}
+
+.dropdown-menu > li > a
+{
+	background-color: #333;
+	color: #FFF;
+	padding: 6px 13px; 
+	-webkit-transition: padding 0.5s ease;
+	-moz-transition: padding 0.5s ease;
+	-o-transition: padding 0.5s ease;
+	transition: padding 0.5s ease;
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus
+
+{
+	background-color: #8c2424;
+	color: #FFF; 
+	padding-left: 20px;
+}
+
+.dropdown-menu .divider{
+	background-color: #8c2424;
+}
+
+@media (max-width: 767px){
+	.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+		background-color: #8c2424;
+	}
+	.dropdown-menu{
+		padding: 0;
+	}
+	.navbar-inverse .navbar-nav > li > a {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.container > .navbar-header, .container-fluid > .navbar-header, .container > .navbar-collapse, .container-fluid > .navbar-collapse{
+		max-height: none;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+	.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus{
+		background-color: #9c2828;
+	}
+
+}
+
+
+/* End navbar */
+
+/* Start slider */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img{
+	width:100%;
+}
+/* End Slider */
+
+/* Start discrip */
+.discrip {
+	padding-top: 10px;
+	background-color: #eee;
+}
+.discrip .pp{
+	margin-bottom: 50px;
+}
+.discrip .lead {
+	font-size: 16px;
+	margin-top: 20px;
+}
+
+.discrip .btn{
+	margin-bottom: 20px;
+}
+
+.discrip .cont{
+	margin-bottom: 30px;
+}
+
+@media (max-width: 767px){
+	.discrip {
+		padding: 30px 0;
+	}
+	.discrip h2{
+		margin-top: 6px;
+	}
+	.discrip .pp {
+		margin-bottom: 24px;
+	}
+	.discrip .ccc{
+		margin-bottom: 35px;
+	}
+}
+/* End discrip */
+
+/*  start our footer */
+.footer {
+	background-color: #080808;
+	padding: 30px 0;
+}
+
+.footer .ff i{
+	margin-left: 5px;
+	cursor: pointer;
+}
+
+/*  End our footer */
